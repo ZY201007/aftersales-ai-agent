@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "RF-001",
+    "text": "订单 ORD1001 我要退款，钱什么时候到账",
+    "order_id": "ORD1001",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-002",
+    "text": "ORD1002 这笔订单申请退款",
+    "order_id": "ORD1002",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-003",
+    "text": "订单 ORD1003 的款什么时候退回来",
+    "order_id": "ORD1003",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-004",
+    "text": "不想要了，订单 ORD1004 给我退钱",
+    "order_id": "ORD1004",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-005",
+    "text": "订单 ORD1005 退款进度查询",
+    "order_id": "ORD1005",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-006",
+    "text": "需要退还订单 ORD1006 的款项",
+    "order_id": "ORD1006",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-007",
+    "text": "订单 ORD1007 商品有问题，要求退款",
+    "order_id": "ORD1007",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-008",
+    "text": "请把订单 ORD1008 的钱退给我",
+    "order_id": "ORD1008",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-009",
+    "text": "订单 ORD1009 已寄回，什么时候返款",
+    "order_id": "ORD1009",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-010",
+    "text": "订单 ORD1010 的退款能加急吗",
+    "order_id": "ORD1010",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-011",
+    "text": "订单 ORD1011 我要退款，钱什么时候到账",
+    "order_id": "ORD1011",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-012",
+    "text": "ORD1012 这笔订单申请退款",
+    "order_id": "ORD1012",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-013",
+    "text": "订单 ORD1013 的款什么时候退回来",
+    "order_id": "ORD1013",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-014",
+    "text": "不想要了，订单 ORD1014 给我退钱",
+    "order_id": "ORD1014",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-015",
+    "text": "订单 ORD1015 退款进度查询",
+    "order_id": "ORD1015",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-016",
+    "text": "需要退还订单 ORD1016 的款项",
+    "order_id": "ORD1016",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-017",
+    "text": "订单 ORD1017 商品有问题，要求退款",
+    "order_id": "ORD1017",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-018",
+    "text": "请把订单 ORD1018 的钱退给我",
+    "order_id": "ORD1018",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-019",
+    "text": "订单 ORD1019 已寄回，什么时候返款",
+    "order_id": "ORD1019",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-020",
+    "text": "订单 ORD1020 的退款能加急吗",
+    "order_id": "ORD1020",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-021",
+    "text": "订单 ORD1021 我要退款，钱什么时候到账",
+    "order_id": "ORD1021",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-022",
+    "text": "ORD1022 这笔订单申请退款",
+    "order_id": "ORD1022",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-023",
+    "text": "订单 ORD1023 的款什么时候退回来",
+    "order_id": "ORD1023",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-024",
+    "text": "不想要了，订单 ORD1024 给我退钱",
+    "order_id": "ORD1024",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-025",
+    "text": "订单 ORD1025 退款进度查询",
+    "order_id": "ORD1025",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-026",
+    "text": "需要退还订单 ORD1026 的款项",
+    "order_id": "ORD1026",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-027",
+    "text": "订单 ORD1027 商品有问题，要求退款",
+    "order_id": "ORD1027",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-028",
+    "text": "请把订单 ORD1028 的钱退给我",
+    "order_id": "ORD1028",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-029",
+    "text": "订单 ORD1029 已寄回，什么时候返款",
+    "order_id": "ORD1029",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "RF-030",
+    "text": "订单 ORD1030 的退款能加急吗",
+    "order_id": "ORD1030",
+    "expected_intent": "refund",
+    "expected_tier": "human_approval",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-001",
+    "text": "我买的耳机尺码不合适想退货，订单号多少来着？",
+    "order_id": null,
+    "expected_intent": "return",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-002",
+    "text": "快递好几天没动了，帮我查查物流",
+    "order_id": null,
+    "expected_intent": "logistics",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-003",
+    "text": "之前下的单不想要了想退货，但找不到订单号了",
+    "order_id": null,
+    "expected_intent": "return",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-004",
+    "text": "商品收到了但是有问题，想退货怎么办",
+    "order_id": null,
+    "expected_intent": "return",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-005",
+    "text": "帮我看下包裹到哪了，我记得是上周买的",
+    "order_id": null,
+    "expected_intent": "logistics",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-006",
+    "text": "这个台灯不想要了，想退货，但订单号没记住",
+    "order_id": null,
+    "expected_intent": "return",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-007",
+    "text": "物流显示已发货但没收到，帮我查一下",
+    "order_id": null,
+    "expected_intent": "logistics",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-008",
+    "text": "想问问一般多久能收到货，单号没记住",
+    "order_id": null,
+    "expected_intent": "logistics",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-009",
+    "text": "收到的东西和图片不一样，想退换",
+    "order_id": null,
+    "expected_intent": "return",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "NG-010",
+    "text": "订单号记不清了，但是想查物流",
+    "order_id": null,
+    "expected_intent": "logistics",
+    "expected_tier": "human_fallback",
+    "difficulty": 0.0,
+    "auto_resolvable": false
+  },
+  {
+    "id": "AR-001",
+    "text": "订单 ORD1008 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1008",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.003125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-002",
+    "text": "帮我查一下 ORD1009 的物流信息",
+    "order_id": "ORD1009",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.009375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-003",
+    "text": "ORD1010 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1010",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.015625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-004",
+    "text": "我的订单 ORD1011 物流轨迹停更了",
+    "order_id": "ORD1011",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.021875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-005",
+    "text": "订单 ORD1012 七天无理由退货怎么操作",
+    "order_id": "ORD1012",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.028125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-006",
+    "text": "查物流，订单号 ORD1013",
+    "order_id": "ORD1013",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.034375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-007",
+    "text": "ORD1014 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1014",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.040625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-008",
+    "text": "订单 ORD1015 用哪家快递，到哪一步了",
+    "order_id": "ORD1015",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.046875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-009",
+    "text": "订单 ORD1016 商品破损，需要退货处理",
+    "order_id": "ORD1016",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.053125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-010",
+    "text": "我的快递 ORD1017 三天没更新了",
+    "order_id": "ORD1017",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.059375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-011",
+    "text": "订单 ORD1018 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1018",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.065625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-012",
+    "text": "帮我查一下 ORD1019 的物流信息",
+    "order_id": "ORD1019",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.071875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-013",
+    "text": "ORD1020 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1020",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.078125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-014",
+    "text": "我的订单 ORD1021 物流轨迹停更了",
+    "order_id": "ORD1021",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.084375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-015",
+    "text": "订单 ORD1022 七天无理由退货怎么操作",
+    "order_id": "ORD1022",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.090625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-016",
+    "text": "查物流，订单号 ORD1023",
+    "order_id": "ORD1023",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.096875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-017",
+    "text": "ORD1024 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1024",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.103125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-018",
+    "text": "订单 ORD1025 用哪家快递，到哪一步了",
+    "order_id": "ORD1025",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.109375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-019",
+    "text": "订单 ORD1026 商品破损，需要退货处理",
+    "order_id": "ORD1026",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.115625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-020",
+    "text": "我的快递 ORD1027 三天没更新了",
+    "order_id": "ORD1027",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.121875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-021",
+    "text": "订单 ORD1028 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1028",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.128125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-022",
+    "text": "帮我查一下 ORD1029 的物流信息",
+    "order_id": "ORD1029",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.134375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-023",
+    "text": "ORD1030 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1030",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.140625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-024",
+    "text": "我的订单 ORD1031 物流轨迹停更了",
+    "order_id": "ORD1031",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.146875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-025",
+    "text": "订单 ORD1032 七天无理由退货怎么操作",
+    "order_id": "ORD1032",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.153125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-026",
+    "text": "查物流，订单号 ORD1033",
+    "order_id": "ORD1033",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.159375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-027",
+    "text": "ORD1034 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1034",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.165625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-028",
+    "text": "订单 ORD1035 用哪家快递，到哪一步了",
+    "order_id": "ORD1035",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.171875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-029",
+    "text": "订单 ORD1036 商品破损，需要退货处理",
+    "order_id": "ORD1036",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.178125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-030",
+    "text": "我的快递 ORD1037 三天没更新了",
+    "order_id": "ORD1037",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.184375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-031",
+    "text": "订单 ORD1038 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1038",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.190625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-032",
+    "text": "帮我查一下 ORD1039 的物流信息",
+    "order_id": "ORD1039",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.196875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-033",
+    "text": "ORD1040 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1040",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.203125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-034",
+    "text": "我的订单 ORD1041 物流轨迹停更了",
+    "order_id": "ORD1041",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.209375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-035",
+    "text": "订单 ORD1042 七天无理由退货怎么操作",
+    "order_id": "ORD1042",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.215625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-036",
+    "text": "查物流，订单号 ORD1043",
+    "order_id": "ORD1043",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.221875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-037",
+    "text": "ORD1044 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1044",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.228125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-038",
+    "text": "订单 ORD1045 用哪家快递，到哪一步了",
+    "order_id": "ORD1045",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.234375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-039",
+    "text": "订单 ORD1046 商品破损，需要退货处理",
+    "order_id": "ORD1046",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.240625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-040",
+    "text": "我的快递 ORD1047 三天没更新了",
+    "order_id": "ORD1047",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.246875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-041",
+    "text": "订单 ORD1048 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1048",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.253125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-042",
+    "text": "帮我查一下 ORD1049 的物流信息",
+    "order_id": "ORD1049",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.259375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-043",
+    "text": "ORD1050 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1050",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.265625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-044",
+    "text": "我的订单 ORD1051 物流轨迹停更了",
+    "order_id": "ORD1051",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.271875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-045",
+    "text": "订单 ORD1052 七天无理由退货怎么操作",
+    "order_id": "ORD1052",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.278125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-046",
+    "text": "查物流，订单号 ORD1053",
+    "order_id": "ORD1053",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.284375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-047",
+    "text": "ORD1054 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1054",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.290625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-048",
+    "text": "订单 ORD1055 用哪家快递，到哪一步了",
+    "order_id": "ORD1055",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.296875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-049",
+    "text": "订单 ORD1056 商品破损，需要退货处理",
+    "order_id": "ORD1056",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.303125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-050",
+    "text": "我的快递 ORD1057 三天没更新了",
+    "order_id": "ORD1057",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.309375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-051",
+    "text": "订单 ORD1058 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1058",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.315625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-052",
+    "text": "帮我查一下 ORD1059 的物流信息",
+    "order_id": "ORD1059",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.321875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-053",
+    "text": "ORD1060 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1060",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.328125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-054",
+    "text": "我的订单 ORD1001 物流轨迹停更了",
+    "order_id": "ORD1001",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.334375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-055",
+    "text": "订单 ORD1002 七天无理由退货怎么操作",
+    "order_id": "ORD1002",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.340625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-056",
+    "text": "查物流，订单号 ORD1003",
+    "order_id": "ORD1003",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.346875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-057",
+    "text": "ORD1004 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1004",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.353125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-058",
+    "text": "订单 ORD1005 用哪家快递，到哪一步了",
+    "order_id": "ORD1005",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.359375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-059",
+    "text": "订单 ORD1006 商品破损，需要退货处理",
+    "order_id": "ORD1006",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.365625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-060",
+    "text": "我的快递 ORD1007 三天没更新了",
+    "order_id": "ORD1007",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.371875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-061",
+    "text": "订单 ORD1008 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1008",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.378125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-062",
+    "text": "帮我查一下 ORD1009 的物流信息",
+    "order_id": "ORD1009",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.384375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-063",
+    "text": "ORD1010 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1010",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.390625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-064",
+    "text": "我的订单 ORD1011 物流轨迹停更了",
+    "order_id": "ORD1011",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.396875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-065",
+    "text": "订单 ORD1012 七天无理由退货怎么操作",
+    "order_id": "ORD1012",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.403125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-066",
+    "text": "查物流，订单号 ORD1013",
+    "order_id": "ORD1013",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.409375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-067",
+    "text": "ORD1014 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1014",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.415625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-068",
+    "text": "订单 ORD1015 用哪家快递，到哪一步了",
+    "order_id": "ORD1015",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.421875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-069",
+    "text": "订单 ORD1016 商品破损，需要退货处理",
+    "order_id": "ORD1016",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.428125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-070",
+    "text": "我的快递 ORD1017 三天没更新了",
+    "order_id": "ORD1017",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.434375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-071",
+    "text": "订单 ORD1018 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1018",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.440625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-072",
+    "text": "帮我查一下 ORD1019 的物流信息",
+    "order_id": "ORD1019",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.446875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-073",
+    "text": "ORD1020 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1020",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.453125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-074",
+    "text": "我的订单 ORD1021 物流轨迹停更了",
+    "order_id": "ORD1021",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.459375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-075",
+    "text": "订单 ORD1022 七天无理由退货怎么操作",
+    "order_id": "ORD1022",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.465625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-076",
+    "text": "查物流，订单号 ORD1023",
+    "order_id": "ORD1023",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.471875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-077",
+    "text": "ORD1024 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1024",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.478125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-078",
+    "text": "订单 ORD1025 用哪家快递，到哪一步了",
+    "order_id": "ORD1025",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.484375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-079",
+    "text": "订单 ORD1026 商品破损，需要退货处理",
+    "order_id": "ORD1026",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.490625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-080",
+    "text": "我的快递 ORD1027 三天没更新了",
+    "order_id": "ORD1027",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.496875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-081",
+    "text": "订单 ORD1028 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1028",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.503125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-082",
+    "text": "帮我查一下 ORD1029 的物流信息",
+    "order_id": "ORD1029",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.509375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-083",
+    "text": "ORD1030 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1030",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.515625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-084",
+    "text": "我的订单 ORD1031 物流轨迹停更了",
+    "order_id": "ORD1031",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.521875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-085",
+    "text": "订单 ORD1032 七天无理由退货怎么操作",
+    "order_id": "ORD1032",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.528125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-086",
+    "text": "查物流，订单号 ORD1033",
+    "order_id": "ORD1033",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.534375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-087",
+    "text": "ORD1034 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1034",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.540625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-088",
+    "text": "订单 ORD1035 用哪家快递，到哪一步了",
+    "order_id": "ORD1035",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.546875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-089",
+    "text": "订单 ORD1036 商品破损，需要退货处理",
+    "order_id": "ORD1036",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.553125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-090",
+    "text": "我的快递 ORD1037 三天没更新了",
+    "order_id": "ORD1037",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.559375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-091",
+    "text": "订单 ORD1038 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1038",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.565625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-092",
+    "text": "帮我查一下 ORD1039 的物流信息",
+    "order_id": "ORD1039",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.571875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-093",
+    "text": "ORD1040 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1040",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.578125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-094",
+    "text": "我的订单 ORD1041 物流轨迹停更了",
+    "order_id": "ORD1041",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.584375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-095",
+    "text": "订单 ORD1042 七天无理由退货怎么操作",
+    "order_id": "ORD1042",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.590625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-096",
+    "text": "查物流，订单号 ORD1043",
+    "order_id": "ORD1043",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.596875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-097",
+    "text": "ORD1044 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1044",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.603125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-098",
+    "text": "订单 ORD1045 用哪家快递，到哪一步了",
+    "order_id": "ORD1045",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.609375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-099",
+    "text": "订单 ORD1046 商品破损，需要退货处理",
+    "order_id": "ORD1046",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.615625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-100",
+    "text": "我的快递 ORD1047 三天没更新了",
+    "order_id": "ORD1047",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.621875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-101",
+    "text": "订单 ORD1048 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1048",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.628125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-102",
+    "text": "帮我查一下 ORD1049 的物流信息",
+    "order_id": "ORD1049",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.634375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-103",
+    "text": "ORD1050 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1050",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.640625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-104",
+    "text": "我的订单 ORD1051 物流轨迹停更了",
+    "order_id": "ORD1051",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.646875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-105",
+    "text": "订单 ORD1052 七天无理由退货怎么操作",
+    "order_id": "ORD1052",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.653125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-106",
+    "text": "查物流，订单号 ORD1053",
+    "order_id": "ORD1053",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.659375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-107",
+    "text": "ORD1054 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1054",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.665625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-108",
+    "text": "订单 ORD1055 用哪家快递，到哪一步了",
+    "order_id": "ORD1055",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.671875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-109",
+    "text": "订单 ORD1056 商品破损，需要退货处理",
+    "order_id": "ORD1056",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.678125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-110",
+    "text": "我的快递 ORD1057 三天没更新了",
+    "order_id": "ORD1057",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.684375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-111",
+    "text": "订单 ORD1058 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1058",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.690625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-112",
+    "text": "帮我查一下 ORD1059 的物流信息",
+    "order_id": "ORD1059",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.696875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-113",
+    "text": "ORD1060 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1060",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.703125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-114",
+    "text": "我的订单 ORD1001 物流轨迹停更了",
+    "order_id": "ORD1001",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.709375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-115",
+    "text": "订单 ORD1002 七天无理由退货怎么操作",
+    "order_id": "ORD1002",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.715625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-116",
+    "text": "查物流，订单号 ORD1003",
+    "order_id": "ORD1003",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.721875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-117",
+    "text": "ORD1004 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1004",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.728125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-118",
+    "text": "订单 ORD1005 用哪家快递，到哪一步了",
+    "order_id": "ORD1005",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.734375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-119",
+    "text": "订单 ORD1006 商品破损，需要退货处理",
+    "order_id": "ORD1006",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.740625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-120",
+    "text": "我的快递 ORD1007 三天没更新了",
+    "order_id": "ORD1007",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.746875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-121",
+    "text": "订单 ORD1008 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1008",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.753125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-122",
+    "text": "帮我查一下 ORD1009 的物流信息",
+    "order_id": "ORD1009",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.759375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-123",
+    "text": "ORD1010 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1010",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.765625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-124",
+    "text": "我的订单 ORD1011 物流轨迹停更了",
+    "order_id": "ORD1011",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.771875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-125",
+    "text": "订单 ORD1012 七天无理由退货怎么操作",
+    "order_id": "ORD1012",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.778125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-126",
+    "text": "查物流，订单号 ORD1013",
+    "order_id": "ORD1013",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.784375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-127",
+    "text": "ORD1014 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1014",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.790625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-128",
+    "text": "订单 ORD1015 用哪家快递，到哪一步了",
+    "order_id": "ORD1015",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.796875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-129",
+    "text": "订单 ORD1016 商品破损，需要退货处理",
+    "order_id": "ORD1016",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.803125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-130",
+    "text": "我的快递 ORD1017 三天没更新了",
+    "order_id": "ORD1017",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.809375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-131",
+    "text": "订单 ORD1018 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1018",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.815625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-132",
+    "text": "帮我查一下 ORD1019 的物流信息",
+    "order_id": "ORD1019",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.821875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-133",
+    "text": "ORD1020 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1020",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.828125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-134",
+    "text": "我的订单 ORD1021 物流轨迹停更了",
+    "order_id": "ORD1021",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.834375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-135",
+    "text": "订单 ORD1022 七天无理由退货怎么操作",
+    "order_id": "ORD1022",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.840625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-136",
+    "text": "查物流，订单号 ORD1023",
+    "order_id": "ORD1023",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.846875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-137",
+    "text": "ORD1024 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1024",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.853125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-138",
+    "text": "订单 ORD1025 用哪家快递，到哪一步了",
+    "order_id": "ORD1025",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.859375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-139",
+    "text": "订单 ORD1026 商品破损，需要退货处理",
+    "order_id": "ORD1026",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.865625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-140",
+    "text": "我的快递 ORD1027 三天没更新了",
+    "order_id": "ORD1027",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.871875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-141",
+    "text": "订单 ORD1028 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1028",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.878125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-142",
+    "text": "帮我查一下 ORD1029 的物流信息",
+    "order_id": "ORD1029",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.884375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-143",
+    "text": "ORD1030 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1030",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.890625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-144",
+    "text": "我的订单 ORD1031 物流轨迹停更了",
+    "order_id": "ORD1031",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.896875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-145",
+    "text": "订单 ORD1032 七天无理由退货怎么操作",
+    "order_id": "ORD1032",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.903125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-146",
+    "text": "查物流，订单号 ORD1033",
+    "order_id": "ORD1033",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.909375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-147",
+    "text": "ORD1034 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1034",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.915625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-148",
+    "text": "订单 ORD1035 用哪家快递，到哪一步了",
+    "order_id": "ORD1035",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.921875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-149",
+    "text": "订单 ORD1036 商品破损，需要退货处理",
+    "order_id": "ORD1036",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.928125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-150",
+    "text": "我的快递 ORD1037 三天没更新了",
+    "order_id": "ORD1037",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.934375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-151",
+    "text": "订单 ORD1038 的无线蓝牙耳机尺码不合适，想办理退货",
+    "order_id": "ORD1038",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.940625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-152",
+    "text": "帮我查一下 ORD1039 的物流信息",
+    "order_id": "ORD1039",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.946875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-153",
+    "text": "ORD1040 收到的智能护眼台灯有瑕疵，申请退货",
+    "order_id": "ORD1040",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.953125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-154",
+    "text": "我的订单 ORD1041 物流轨迹停更了",
+    "order_id": "ORD1041",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.959375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-155",
+    "text": "订单 ORD1042 七天无理由退货怎么操作",
+    "order_id": "ORD1042",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.965625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-156",
+    "text": "查物流，订单号 ORD1043",
+    "order_id": "ORD1043",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.971875,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-157",
+    "text": "ORD1044 这个纯棉四件套与描述不符，要求退货",
+    "order_id": "ORD1044",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.978125,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-158",
+    "text": "订单 ORD1045 用哪家快递，到哪一步了",
+    "order_id": "ORD1045",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.984375,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-159",
+    "text": "订单 ORD1046 商品破损，需要退货处理",
+    "order_id": "ORD1046",
+    "expected_intent": "return",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.990625,
+    "auto_resolvable": true
+  },
+  {
+    "id": "AR-160",
+    "text": "我的快递 ORD1047 三天没更新了",
+    "order_id": "ORD1047",
+    "expected_intent": "logistics",
+    "expected_tier": "auto_reply",
+    "difficulty": 0.996875,
+    "auto_resolvable": true
+  }
+]

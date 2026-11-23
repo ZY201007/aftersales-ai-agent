@@ -1,0 +1,32 @@
+# 字节编译 / 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 环境变量（含密钥，切勿提交）
+.env
+.env.local
+
+# 评测产物 / 临时数据
+eval/results/
+*.log
+
+# 打包 / 分发
+build/
+dist/
+*.egg-info/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

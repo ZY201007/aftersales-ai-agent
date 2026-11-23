@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>售后星 · 电商售后 AI 助手</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">星</div>
+      <div class="brand-text">
+        <h1>售后星 <span>电商售后 AI 助手</span></h1>
+        <p>退货 · 查物流 · 退款　|　工具白名单 + 答案出处 + 人工审批</p>
+      </div>
+    </div>
+    <div class="status-pill"><span class="dot"></span> MockLLM 零配置运行中</div>
+  </header>
+
+  <main class="layout">
+    <!-- 左列：对话 + 审批 -->
+    <div class="col">
+      <!-- 客服对话面板 -->
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <h2>客服对话面板</h2>
+            <p class="subtitle">输入咨询，查看带「答案出处 / 引用」的回复</p>
+          </div>
+          <div class="head-actions">
+            <label class="inline-label">版本
+              <select id="versionSelect">
+                <option value="v2" selected>v2（精简提示词）</option>
+                <option value="v1">v1（基线）</option>
+              </select>
+            </label>
+            <button class="btn btn-ghost btn-sm" id="clearChatBtn">清空对话</button>
+          </div>
+        </div>
+
+        <div class="quick-row">
+          <span class="quick-label">试试：</span>
+          <button class="chip" data-text="订单 ORD1001 想退货">退货示例</button>
+          <button class="chip" data-text="订单 ORD1002 我要退款">退款示例</button>
+          <button class="chip" data-text="帮我查一下 ORD1003 的物流信息">查物流示例</button>
+          <button class="chip" data-text="之前下的单不想要了想退货，但找不到订单号了">无订单号示例</button>
+        </div>
+
+        <form class="chat-form" id="chatForm">
+          <input type="text" id="chatInput" placeholder="例如：订单 ORD1001 想退货" autocomplete="off" required>
+          <input type="text" id="orderInput" placeholder="订单号（可选）" class="order-input">
+          <button type="submit" class="btn btn-primary" id="sendBtn">发送</button>
+        </form>
+
+        <div class="messages" id="messages">
+          <div class="empty-state">还没有消息，输入一条售后咨询开始对话吧。</div>
+        </div>
+      </section>
+
+      <!-- 退款审批工单区 -->
+      <section class="card" id="approvalSection">
+        <div class="card-head">
+          <div>
+            <h2>退款审批工单区</h2>
+            <p class="subtitle">退款涉及资金，Agent 只创建工单，由人工决定批准 / 驳回</p>
+          </div>
+          <div class="head-actions">
+            <select id="approvalFilter" aria-label="审批状态筛选">
+              <option value="all">全部状态</option>
+              <option value="pending" selected>待审批(pending)</option>
+              <option value="approved">已批准</option>
+              <option value="rejected">已驳回</option>
+            </select>
+            <button class="btn btn-ghost btn-sm" id="refreshApprovalsBtn">刷新</button>
+          </div>
+        </div>
+
+        <div class="notice">
+          <strong>安全边界：</strong>工具白名单仅含 <code>query_order</code> / <code>query_logistics</code> /
+          <code>check_refund_policy</code>，<b>不含任何审批工具</b>（如 <code>approve_refund</code>）。
+          Agent 无法自动批准退款，必须在下方工单中人工决策。
+        </div>
+
+        <div class="toolbar-row">
+          <button class="btn btn-outline btn-sm" id="genRefundBtn">＋ 生成一条退款测试工单</button>
+          <span class="hint" id="approvalHint"></span>
+        </div>
+
+        <div class="ticket-list" id="ticketList">
+          <div class="empty-state">暂无工单。发送「退款示例」或点击上方按钮生成。</div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 右列：工具 + 评测 -->
+    <div class="col">
+      <!-- 工具白名单 -->
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <h2>工具白名单</h2>
+            <p class="subtitle">Agent 只能调用已登记的工具</p>
+          </div>
+          <span class="count-badge" id="toolsCount">—</span>
+        </div>
+        <div class="tool-list" id="toolList">
+          <div class="empty-state">加载中…</div>
+        </div>
+        <div class="tool-foot">审批工具不在白名单中，退款须人工审批。</div>
+      </section>
+
+      <!-- 评测结果 -->
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <h2>评测结果</h2>
+            <p class="subtitle">历史实测（eval/fixtures.py）与实时 A/B 对比</p>
+          </div>
+        </div>
+
+        <div class="metric-grid" id="historicalMetrics">
+          <div class="metric">
+            <div class="metric-label">自动解决率</div>
+            <div class="metric-value"><span class="old">52%</span><span class="arrow">→</span><span class="new">71%</span></div>
+            <div class="metric-foot">+19.0pp</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">净解决率</div>
+            <div class="metric-value"><span class="old">24%</span><span class="arrow">→</span><span class="new">62%</span></div>
+            <div class="metric-foot">+38.0pp</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">AI 单笔成本</div>
+            <div class="metric-value"><span class="down">-30%</span></div>
+            <div class="metric-foot">¥0.0012 → ¥0.00084</div>
+          </div>
+        </div>
+
+        <div class="eval-actions">
+          <button class="btn btn-primary" id="runAbBtn">运行 A/B 评测（200 条用例）</button>
+          <span class="hint" id="abHint">点击用 MockLLM 实时复现 v1 / v2 指标</span>
+        </div>
+
+        <div id="abResult" class="ab-result"></div>
+        <div class="eval-note">历史数字为简历实测值并以 fixtures 固化；实时结果由本项目的 MockLLM 复现，口径一致。</div>
+      </section>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
